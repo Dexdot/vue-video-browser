@@ -24,7 +24,7 @@ export default {
   },
   data: () => ({
     videos: [],
-    selectedVideo: {}
+    selectedVideo: null
   }),
   methods: {
     onTermChange(searchTerm) {
